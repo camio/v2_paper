@@ -1,7 +1,7 @@
 # V2: An Evolutionary Path for Standard Library Types
 
 The latest PDF for this paper is available
-[here](https://camio.github.io/v2/v2.pdf).
+[here](https://camio.github.io/v2_paper/v2.pdf).
 
 ## Building
 
