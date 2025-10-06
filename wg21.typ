@@ -21,7 +21,7 @@
 
   par(
     justify: false,
-    text(24pt, fill: rgb("004b71"), title, weight: "bold")
+    text(23pt, fill: rgb("004b71"), title, weight: "bold")
   )
 
   text(12pt,

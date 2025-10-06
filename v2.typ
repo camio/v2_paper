@@ -1,9 +1,9 @@
 #import "wg21.typ" as wg21
 
 #show: wg21.template.with(
-  paper_number: "D3866R0",
+  paper_number: "P3866R0",
   audience: "LEWG",
-  title: [V2: An Evolution Path for the Standard Library [DRAFT]],
+  title: [V2: An Evolution Path for the Standard Library],
   authors: (
     (
       name: "David Sankel",
@@ -153,6 +153,7 @@
     )
   ],
 )
+#pagebreak()
 
 = Introduction
 
