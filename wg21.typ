@@ -14,6 +14,7 @@
   title,
   authors,
   abstract,
+  date,
 ) = {
   set par(spacing: 1em)
   set text(font: "TeX Gyre Heros")
@@ -36,7 +37,8 @@
     #author.institution
     #link("mailto:" + author.mail) \
   ]
-
+  v(8pt)
+  [#date.month #date.day, #date.year]
   v(8pt)
   set text(10pt)
   set par(justify: true)
@@ -64,7 +66,8 @@
     set page(
       paper: "us-letter",
       margin: (top: 1.9cm, bottom: 1in, x: 1.6cm),
-      columns: 2
+      columns: 2,
+      numbering: "1"
     )
     set par(justify: true)
     set text(10pt, font: "TeX Gyre Pagella")
@@ -106,7 +109,7 @@
 
     place(make-venue(paper_number, audience), top, scope: "parent", float: true)
     place(
-      make-title(title, authors, abstract),
+      make-title(title, authors, abstract, date),
       top,
       scope: "parent",
       float: true

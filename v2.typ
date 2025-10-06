@@ -14,7 +14,7 @@
   date: (
     year: 2025,
     month: "October",
-    day: 4,
+    day: 6,
   ),
   abstract: [
     The C++ standard library's commitment to strong backward compatibility is a
