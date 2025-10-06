@@ -163,8 +163,8 @@ interface-breaking changes, the committee resorts to ad-hoc solutions: placing
 new versions in different namespaces (`std::ranges::sort`) or giving them entirely
 new names (`std::copyable_function`).
 
-The result is a haphazard and incoherent library that confuses developers and
-harms teachability. Worse, this naming challenge actively discourages necessary
+The result is an incoherent library that confuses developers and harms
+teachability. Worse, this naming challenge actively discourages necessary
 improvements, as finding an acceptable name is often considered too difficult.
 
 This paper proposes V2, a structured framework to resolve this problem.
@@ -178,7 +178,7 @@ introduced with an incrementing numerical suffix. For instance, the first
 breaking change to `std::foo` would result in a new component named `std::foo2`,
 with a subsequent revision being named `std::foo3`.
 
-To complement the versioned entities in the std namespace, we propose
+To complement the versioned entities in the `std` namespace, we propose
 introducing standard-specific namespaces (e.g., `std::cpp29`, `std::cpp32`).
 These namespaces would contain aliases that always point to the most recent
 version of every component available in that C++ standard.
