@@ -169,3 +169,27 @@ TcMalloc:
   website: "tcmalloc GitHub repository"
   url: "https://github.com/google/tcmalloc"
   accessed: "2025-10-03"
+
+SD9:
+  type: report
+  author:
+    - Inbal Levi
+    - Ben Craig
+    - Fabio Fracassi
+  title: "Library Evolution Policies"
+  number: "P2267R1"
+  date: 2023-11-23
+  url:
+    value: "https://wg21.link/p2267r1"
+    date: "2025-05-13"
+
+std2:
+  type: report
+  author:
+    - Alisdair Meredith
+  title: "Reserve a New Library Namespace Future Standardization"
+  number: "P0180R0"
+  date: 2016-02-10
+  url:
+    value: "https://wg21.link/P0180R0"
+    date: "2016-02-10"
