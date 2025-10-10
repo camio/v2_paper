@@ -1,7 +1,7 @@
 #import "wg21.typ" as wg21
 
 #show: wg21.template.with(
-  paper_number: "P3866R0",
+  paper_number: "D3866R1",
   audience: "LEWG",
   title: [V2: An Evolution Path for the Standard Library],
   authors: (
@@ -194,7 +194,7 @@ namespace cpp = std::cpp29;
 void f() {
   cpp::string s; // std::cpp29::string is an alias
                  // to std::string
-  cpp::unordered_map<int,int> s;
+  cpp::unordered_map<int,int> m;
     // std::cpp29::unordered_map is an alias to
     // std::unordered_map2, a hypothetical modern
     // hash map API.
